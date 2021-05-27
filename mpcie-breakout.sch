@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -13044,7 +13044,9 @@ DIN A4, landscape with extra doc field</description>
 <wire x1="0" y1="129.54" x2="129.54" y2="129.54" width="0.1524" layer="97" style="longdash"/>
 <wire x1="129.54" y1="129.54" x2="129.54" y2="134.62" width="0.1524" layer="97" style="longdash"/>
 <wire x1="129.54" y1="134.62" x2="129.54" y2="180.34" width="0.1524" layer="97" style="longdash"/>
-<wire x1="0" y1="91.44" x2="129.54" y2="91.44" width="0.1524" layer="97" style="longdash"/>
+<wire x1="-66.04" y1="91.44" x2="-48.26" y2="91.44" width="0.1524" layer="97" style="longdash"/>
+<wire x1="-48.26" y1="91.44" x2="-22.86" y2="91.44" width="0.1524" layer="97" style="longdash"/>
+<wire x1="-22.86" y1="91.44" x2="129.54" y2="91.44" width="0.1524" layer="97" style="longdash"/>
 <wire x1="129.54" y1="91.44" x2="129.54" y2="99.06" width="0.1524" layer="97" style="longdash"/>
 <wire x1="129.54" y1="99.06" x2="129.54" y2="129.54" width="0.1524" layer="97" style="longdash"/>
 <wire x1="129.54" y1="91.44" x2="129.54" y2="0" width="0.1524" layer="97" style="longdash"/>
@@ -13063,6 +13065,34 @@ JP3 2-3: external 5V supply</text>
 <text x="134.62" y="91.44" size="3.81" layer="97" font="vector" ratio="12">RF SMA</text>
 <wire x1="167.64" y1="99.06" x2="167.64" y2="35.56" width="0.1524" layer="97" style="longdash"/>
 <text x="256.54" y="7.62" size="3.81" layer="97">&gt;VERSION</text>
+<wire x1="0" y1="0" x2="-66.04" y2="0" width="0.2032" layer="94"/>
+<wire x1="-66.04" y1="0" x2="-66.04" y2="180.34" width="0.2032" layer="94"/>
+<wire x1="-66.04" y1="180.34" x2="0" y2="180.34" width="0.2032" layer="94"/>
+<wire x1="0" y1="81.28" x2="-66.04" y2="81.28" width="0.2032" layer="97"/>
+<wire x1="-48.26" y1="91.44" x2="-48.26" y2="0" width="0.2032" layer="97"/>
+<wire x1="-22.86" y1="91.44" x2="-22.86" y2="0" width="0.2032" layer="97"/>
+<text x="-40.64" y="83.82" size="1.778" layer="97">Quectel</text>
+<text x="-17.78" y="83.82" size="1.778" layer="97">SIMCOM</text>
+<text x="-60.96" y="83.82" size="1.778" layer="97">Pin</text>
+<wire x1="0" y1="73.66" x2="-66.04" y2="73.66" width="0.2032" layer="97"/>
+<wire x1="0" y1="66.04" x2="-66.04" y2="66.04" width="0.2032" layer="97"/>
+<wire x1="0" y1="58.42" x2="-66.04" y2="58.42" width="0.2032" layer="97"/>
+<wire x1="0" y1="50.8" x2="-66.04" y2="50.8" width="0.2032" layer="97"/>
+<wire x1="0" y1="43.18" x2="-66.04" y2="43.18" width="0.2032" layer="97"/>
+<wire x1="0" y1="35.56" x2="-66.04" y2="35.56" width="0.2032" layer="97"/>
+<wire x1="0" y1="27.94" x2="-66.04" y2="27.94" width="0.2032" layer="97"/>
+<text x="-63.5" y="76.2" size="1.778" layer="97">UART_RXD</text>
+<text x="-63.5" y="68.58" size="1.778" layer="97">UART_TXD</text>
+<text x="-63.5" y="60.96" size="1.778" layer="97">UART_CTS</text>
+<text x="-63.5" y="53.34" size="1.778" layer="97">UART_RTS</text>
+<text x="-17.78" y="76.2" size="1.778" layer="97">17</text>
+<text x="-17.78" y="68.58" size="1.778" layer="97">19</text>
+<text x="-17.78" y="60.96" size="1.778" layer="97">11</text>
+<text x="-17.78" y="53.34" size="1.778" layer="97">13</text>
+<text x="-43.18" y="76.2" size="1.778" layer="97">11</text>
+<text x="-43.18" y="68.58" size="1.778" layer="97">13</text>
+<text x="-43.18" y="60.96" size="1.778" layer="97">23</text>
+<text x="-43.18" y="53.34" size="1.778" layer="97">25</text>
 </plain>
 <instances>
 <instance part="X1" gate="G$1" x="45.72" y="43.18" smashed="yes">
