@@ -14176,7 +14176,7 @@ JP3 2-3: external 5V supply</text>
 <label x="182.88" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="UIM_C8" class="0">
+<net name="RXD_3.3V" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="UIM_C8"/>
 <wire x1="25.4" y1="53.34" x2="17.78" y2="53.34" width="0.1524" layer="91"/>
@@ -14188,7 +14188,7 @@ JP3 2-3: external 5V supply</text>
 <label x="73.66" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="UIM_C4" class="0">
+<net name="TXD_3.3V" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="UIM_C4"/>
 <wire x1="25.4" y1="50.8" x2="17.78" y2="50.8" width="0.1524" layer="91"/>
@@ -14357,7 +14357,7 @@ JP3 2-3: external 5V supply</text>
 <label x="96.52" y="157.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="REFCLK-" class="0">
+<net name="CTS_3.3V" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="REFCLK-"/>
 <wire x1="25.4" y1="63.5" x2="17.78" y2="63.5" width="0.1524" layer="91"/>
@@ -14369,7 +14369,7 @@ JP3 2-3: external 5V supply</text>
 <label x="73.66" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="REFCLK+" class="0">
+<net name="RTS_3.3V" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="REFCLK+"/>
 <wire x1="25.4" y1="60.96" x2="17.78" y2="60.96" width="0.1524" layer="91"/>
