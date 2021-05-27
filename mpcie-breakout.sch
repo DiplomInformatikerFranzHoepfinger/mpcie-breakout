@@ -13093,6 +13093,16 @@ JP3 2-3: external 5V supply</text>
 <text x="-43.18" y="68.58" size="1.778" layer="97">13</text>
 <text x="-43.18" y="60.96" size="1.778" layer="97">23</text>
 <text x="-43.18" y="53.34" size="1.778" layer="97">25</text>
+<text x="-63.5" y="45.72" size="1.778" layer="97">UART_DCD</text>
+<text x="-63.5" y="38.1" size="1.778" layer="97">UART_DTR</text>
+<text x="-63.5" y="30.48" size="1.778" layer="97">UART_RI</text>
+<wire x1="0" y1="20.32" x2="-66.04" y2="20.32" width="0.2032" layer="97"/>
+<text x="-17.78" y="45.72" size="1.778" layer="97">31</text>
+<text x="-17.78" y="38.1" size="1.778" layer="97">23</text>
+<text x="-17.78" y="30.48" size="1.778" layer="97">25</text>
+<text x="-43.18" y="30.48" size="1.778" layer="97">17</text>
+<text x="-43.18" y="38.1" size="1.778" layer="97">31</text>
+<text x="-43.18" y="45.72" size="1.778" layer="97">n.a.</text>
 </plain>
 <instances>
 <instance part="X1" gate="G$1" x="45.72" y="43.18" smashed="yes">
