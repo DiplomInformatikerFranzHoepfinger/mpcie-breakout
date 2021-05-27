@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -13064,7 +13065,7 @@ JP3 2-3: external 5V supply</text>
 <text x="256.54" y="7.62" size="3.81" layer="97">&gt;VERSION</text>
 </plain>
 <instances>
-<instance part="X1" gate="G$1" x="45.72" y="43.18">
+<instance part="X1" gate="G$1" x="45.72" y="43.18" smashed="yes">
 <attribute name="DESCRIPTION" x="45.72" y="43.18" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="45.72" y="43.18" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="45.72" y="43.18" size="1.778" layer="96" display="off"/>
@@ -13074,10 +13075,16 @@ JP3 2-3: external 5V supply</text>
 <attribute name="POPULATED" x="45.72" y="43.18" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="45.72" y="43.18" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="45.72" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="VALUE" x="33.02" y="5.08" size="1.6764" layer="96"/>
+<attribute name="NAME" x="33.02" y="80.264" size="1.6764" layer="95"/>
 </instance>
-<instance part="GND1" gate="1" x="22.86" y="5.08"/>
-<instance part="GND2" gate="1" x="68.58" y="5.08"/>
-<instance part="X2" gate="G$1" x="231.14" y="73.66">
+<instance part="GND1" gate="1" x="22.86" y="5.08" smashed="yes">
+<attribute name="VALUE" x="20.32" y="2.54" size="1.778" layer="96"/>
+</instance>
+<instance part="GND2" gate="1" x="68.58" y="5.08" smashed="yes">
+<attribute name="VALUE" x="66.04" y="2.54" size="1.778" layer="96"/>
+</instance>
+<instance part="X2" gate="G$1" x="231.14" y="73.66" smashed="yes">
 <attribute name="DESCRIPTION" x="231.14" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="231.14" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="231.14" y="73.66" size="1.778" layer="96" display="off"/>
@@ -13087,12 +13094,18 @@ JP3 2-3: external 5V supply</text>
 <attribute name="POPULATED" x="231.14" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="231.14" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="231.14" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="228.6" y="85.09" size="1.778" layer="95"/>
+<attribute name="VALUE" x="241.3" y="66.04" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="X2" gate="S" x="236.22" y="63.5"/>
-<instance part="M1" gate="G$1" x="86.36" y="10.16">
+<instance part="X2" gate="S" x="236.22" y="63.5" smashed="yes">
+<attribute name="NAME" x="240.03" y="60.96" size="1.778" layer="95"/>
+</instance>
+<instance part="M1" gate="G$1" x="86.36" y="10.16" smashed="yes">
 <attribute name="OC_DIGIKEY" x="86.36" y="10.16" size="3.81" layer="96" rot="MR0" display="off"/>
+<attribute name="NAME" x="83.82" y="5.588" size="1.27" layer="95"/>
+<attribute name="VALUE" x="90.424" y="7.62" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="SIM1" gate="-CARD" x="55.88" y="106.68">
+<instance part="SIM1" gate="-CARD" x="55.88" y="106.68" smashed="yes">
 <attribute name="DESCRIPTION" x="55.88" y="106.68" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="55.88" y="106.68" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="55.88" y="106.68" size="1.778" layer="96" display="off"/>
@@ -13102,8 +13115,10 @@ JP3 2-3: external 5V supply</text>
 <attribute name="POPULATED" x="55.88" y="106.68" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="55.88" y="106.68" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="55.88" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="48.276" y="116.856" size="1.778" layer="95"/>
+<attribute name="VALUE" x="48.276" y="102.632" size="1.778" layer="96"/>
 </instance>
-<instance part="LED1" gate="G$1" x="99.06" y="22.86" rot="R270">
+<instance part="LED1" gate="G$1" x="99.06" y="22.86" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" x="99.06" y="22.86" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="99.06" y="22.86" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="99.06" y="22.86" size="1.778" layer="96" display="off"/>
@@ -13113,8 +13128,10 @@ JP3 2-3: external 5V supply</text>
 <attribute name="POPULATED" x="99.06" y="22.86" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="99.06" y="22.86" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="99.06" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="94.488" y="19.304" size="1.778" layer="95"/>
+<attribute name="VALUE" x="94.488" y="17.145" size="1.778" layer="96"/>
 </instance>
-<instance part="JP1" gate="A" x="101.6" y="48.26" rot="R270">
+<instance part="JP1" gate="A" x="101.6" y="48.26" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" x="101.6" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="101.6" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="101.6" y="48.26" size="1.778" layer="96" display="off"/>
@@ -13124,8 +13141,10 @@ JP3 2-3: external 5V supply</text>
 <attribute name="POPULATED" x="101.6" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="101.6" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="101.6" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="101.6" y="49.53" size="1.778" layer="95"/>
+<attribute name="VALUE" x="101.6" y="42.545" size="1.778" layer="96"/>
 </instance>
-<instance part="JP2" gate="A" x="101.6" y="53.34" rot="R270">
+<instance part="JP2" gate="A" x="101.6" y="53.34" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" x="101.6" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="101.6" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="101.6" y="53.34" size="1.778" layer="96" display="off"/>
@@ -13135,9 +13154,13 @@ JP3 2-3: external 5V supply</text>
 <attribute name="POPULATED" x="101.6" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="101.6" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="101.6" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="101.6" y="54.61" size="1.778" layer="95"/>
+<attribute name="VALUE" x="101.6" y="47.625" size="1.778" layer="96"/>
 </instance>
-<instance part="GND3" gate="1" x="96.52" y="40.64"/>
-<instance part="R1" gate="G$1" x="93.98" y="66.04">
+<instance part="GND3" gate="1" x="96.52" y="40.64" smashed="yes">
+<attribute name="VALUE" x="93.98" y="38.1" size="1.778" layer="96"/>
+</instance>
+<instance part="R1" gate="G$1" x="93.98" y="66.04" smashed="yes">
 <attribute name="DESCRIPTION" x="93.98" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="93.98" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="93.98" y="66.04" size="1.778" layer="96" display="off"/>
@@ -13147,8 +13170,10 @@ JP3 2-3: external 5V supply</text>
 <attribute name="POPULATED" x="93.98" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="93.98" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="93.98" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="91.44" y="68.326" size="1.27" layer="95"/>
+<attribute name="VALUE" x="91.44" y="62.611" size="1.27" layer="96"/>
 </instance>
-<instance part="R2" gate="G$1" x="86.36" y="63.5">
+<instance part="R2" gate="G$1" x="86.36" y="63.5" smashed="yes">
 <attribute name="DESCRIPTION" x="86.36" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="86.36" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="86.36" y="63.5" size="1.778" layer="96" display="off"/>
@@ -13158,8 +13183,10 @@ JP3 2-3: external 5V supply</text>
 <attribute name="POPULATED" x="86.36" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="86.36" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="86.36" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="83.82" y="65.786" size="1.27" layer="95"/>
+<attribute name="VALUE" x="83.82" y="60.071" size="1.27" layer="96"/>
 </instance>
-<instance part="R3" gate="G$1" x="93.98" y="60.96">
+<instance part="R3" gate="G$1" x="93.98" y="60.96" smashed="yes">
 <attribute name="DESCRIPTION" x="93.98" y="60.96" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="93.98" y="60.96" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="93.98" y="60.96" size="1.778" layer="96" display="off"/>
@@ -13169,8 +13196,10 @@ JP3 2-3: external 5V supply</text>
 <attribute name="POPULATED" x="93.98" y="60.96" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="93.98" y="60.96" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="93.98" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="91.44" y="63.246" size="1.27" layer="95"/>
+<attribute name="VALUE" x="91.44" y="57.531" size="1.27" layer="96"/>
 </instance>
-<instance part="U1" gate="G$1" x="198.12" y="73.66" rot="MR0">
+<instance part="U1" gate="G$1" x="198.12" y="73.66" smashed="yes" rot="MR0">
 <attribute name="DESCRIPTION" x="198.12" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="198.12" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="198.12" y="73.66" size="1.778" layer="96" display="off"/>
@@ -13180,8 +13209,9 @@ JP3 2-3: external 5V supply</text>
 <attribute name="POPULATED" x="198.12" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="198.12" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="198.12" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="200.66" y="83.82" size="1.778" layer="95" rot="MR180"/>
 </instance>
-<instance part="U2" gate="G$1" x="208.28" y="157.48">
+<instance part="U2" gate="G$1" x="208.28" y="157.48" smashed="yes">
 <attribute name="DESCRIPTION" x="208.28" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="208.28" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="208.28" y="157.48" size="1.778" layer="96" display="off"/>
@@ -13191,8 +13221,10 @@ JP3 2-3: external 5V supply</text>
 <attribute name="POPULATED" x="208.28" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="208.28" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="208.28" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="200.66" y="163.83" size="1.778" layer="95"/>
+<attribute name="VALUE" x="210.82" y="163.83" size="1.778" layer="96"/>
 </instance>
-<instance part="C1" gate="G$1" x="190.5" y="152.4" rot="R90">
+<instance part="C1" gate="G$1" x="190.5" y="152.4" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" x="190.5" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="190.5" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="190.5" y="152.4" size="1.778" layer="96" display="off"/>
@@ -13202,8 +13234,10 @@ JP3 2-3: external 5V supply</text>
 <attribute name="POPULATED" x="190.5" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="190.5" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="190.5" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="187.96" y="150.876" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="194.056" y="150.876" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="C2" gate="G$1" x="223.52" y="152.4" rot="R90">
+<instance part="C2" gate="G$1" x="223.52" y="152.4" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" x="223.52" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="223.52" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="223.52" y="152.4" size="1.778" layer="96" display="off"/>
@@ -13213,9 +13247,13 @@ JP3 2-3: external 5V supply</text>
 <attribute name="POPULATED" x="223.52" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="223.52" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="223.52" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="220.98" y="150.876" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="227.076" y="150.876" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="GND4" gate="1" x="208.28" y="144.78"/>
-<instance part="K1" gate="G$1" x="152.4" y="167.64">
+<instance part="GND4" gate="1" x="208.28" y="144.78" smashed="yes">
+<attribute name="VALUE" x="205.74" y="142.24" size="1.778" layer="96"/>
+</instance>
+<instance part="K1" gate="G$1" x="152.4" y="167.64" smashed="yes">
 <attribute name="DESCRIPTION" x="152.4" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="152.4" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="152.4" y="167.64" size="1.778" layer="96" display="off"/>
@@ -13225,8 +13263,10 @@ JP3 2-3: external 5V supply</text>
 <attribute name="POPULATED" x="152.4" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="152.4" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="152.4" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="142.24" y="170.18" size="1.778" layer="95"/>
+<attribute name="VALUE" x="142.24" y="160.02" size="1.778" layer="96"/>
 </instance>
-<instance part="JP3" gate="1" x="167.64" y="160.02" rot="R90">
+<instance part="JP3" gate="1" x="167.64" y="160.02" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" x="167.64" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="167.64" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="167.64" y="160.02" size="1.778" layer="96" display="off"/>
@@ -13236,11 +13276,19 @@ JP3 2-3: external 5V supply</text>
 <attribute name="POPULATED" x="167.64" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="167.64" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="167.64" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="167.64" y="156.21" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="167.64" y="165.735" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND5" gate="1" x="154.94" y="157.48"/>
-<instance part="GND6" gate="1" x="198.12" y="58.42"/>
-<instance part="GND7" gate="1" x="223.52" y="63.5"/>
-<instance part="C3" gate="G$1" x="180.34" y="154.94">
+<instance part="GND5" gate="1" x="154.94" y="157.48" smashed="yes">
+<attribute name="VALUE" x="152.4" y="154.94" size="1.778" layer="96"/>
+</instance>
+<instance part="GND6" gate="1" x="198.12" y="58.42" smashed="yes">
+<attribute name="VALUE" x="195.58" y="55.88" size="1.778" layer="96"/>
+</instance>
+<instance part="GND7" gate="1" x="223.52" y="63.5" smashed="yes">
+<attribute name="VALUE" x="220.98" y="60.96" size="1.778" layer="96"/>
+</instance>
+<instance part="C3" gate="G$1" x="180.34" y="154.94" smashed="yes">
 <attribute name="DESCRIPTION" x="180.34" y="154.94" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="180.34" y="154.94" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="180.34" y="154.94" size="1.778" layer="96" display="off"/>
@@ -13250,8 +13298,10 @@ JP3 2-3: external 5V supply</text>
 <attribute name="POPULATED" x="180.34" y="154.94" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="180.34" y="154.94" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="180.34" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="181.483" y="155.4226" size="1.778" layer="95"/>
+<attribute name="VALUE" x="181.483" y="150.3426" size="1.778" layer="96"/>
 </instance>
-<instance part="C4" gate="G$1" x="233.68" y="154.94">
+<instance part="C4" gate="G$1" x="233.68" y="154.94" smashed="yes">
 <attribute name="DESCRIPTION" x="233.68" y="154.94" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="233.68" y="154.94" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="233.68" y="154.94" size="1.778" layer="96" display="off"/>
@@ -13261,6 +13311,8 @@ JP3 2-3: external 5V supply</text>
 <attribute name="POPULATED" x="233.68" y="154.94" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="233.68" y="154.94" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="233.68" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="234.823" y="155.4226" size="1.778" layer="95"/>
+<attribute name="VALUE" x="234.823" y="150.3426" size="1.778" layer="96"/>
 </instance>
 <instance part="C107" gate="G$1" x="172.72" y="116.84" smashed="yes" rot="R270">
 <attribute name="NAME" x="171.45" y="110.236" size="1.27" layer="95" rot="R90"/>
@@ -13275,7 +13327,9 @@ JP3 2-3: external 5V supply</text>
 <attribute name="CLASS" x="172.72" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="172.72" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND125" gate="1" x="172.72" y="104.14"/>
+<instance part="GND125" gate="1" x="172.72" y="104.14" smashed="yes">
+<attribute name="VALUE" x="170.18" y="101.6" size="1.778" layer="96"/>
+</instance>
 <instance part="C108" gate="G$1" x="177.8" y="116.84" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" x="177.8" y="116.84" size="1.27" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="177.8" y="116.84" size="1.27" layer="96" display="off"/>
@@ -13315,7 +13369,9 @@ JP3 2-3: external 5V supply</text>
 <attribute name="NAME" x="199.644" y="109.982" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="199.644" y="118.364" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="GND127" gate="1" x="200.66" y="104.14"/>
+<instance part="GND127" gate="1" x="200.66" y="104.14" smashed="yes">
+<attribute name="VALUE" x="198.12" y="101.6" size="1.778" layer="96"/>
+</instance>
 <instance part="C112" gate="G$1" x="205.74" y="116.84" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" x="205.74" y="116.84" size="1.27" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="205.74" y="116.84" size="1.27" layer="96" display="off"/>
@@ -13407,10 +13463,16 @@ JP3 2-3: external 5V supply</text>
 <attribute name="CLASS" x="73.66" y="104.14" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="73.66" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND8" gate="1" x="35.56" y="96.52"/>
-<instance part="GND9" gate="1" x="40.64" y="96.52"/>
-<instance part="GND10" gate="1" x="73.66" y="96.52"/>
-<instance part="JP4" gate="A" x="83.82" y="149.86">
+<instance part="GND8" gate="1" x="35.56" y="96.52" smashed="yes">
+<attribute name="VALUE" x="33.02" y="93.98" size="1.778" layer="96"/>
+</instance>
+<instance part="GND9" gate="1" x="40.64" y="96.52" smashed="yes">
+<attribute name="VALUE" x="38.1" y="93.98" size="1.778" layer="96"/>
+</instance>
+<instance part="GND10" gate="1" x="73.66" y="96.52" smashed="yes">
+<attribute name="VALUE" x="71.12" y="93.98" size="1.778" layer="96"/>
+</instance>
+<instance part="JP4" gate="A" x="83.82" y="149.86" smashed="yes">
 <attribute name="SOURCE" x="83.82" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="POPULATED" x="83.82" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="83.82" y="149.86" size="1.778" layer="96" display="off"/>
@@ -13420,6 +13482,8 @@ JP3 2-3: external 5V supply</text>
 <attribute name="SOURCEPARTNUMBER" x="83.82" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="ROHSCERTIFICATE" x="83.82" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="83.82" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="77.47" y="165.735" size="1.778" layer="95"/>
+<attribute name="VALUE" x="77.47" y="129.54" size="1.778" layer="96"/>
 </instance>
 <instance part="C8" gate="G$1" x="30.48" y="101.6" smashed="yes" rot="R90">
 <attribute name="SOURCE" x="30.48" y="101.6" size="1.778" layer="96" display="off"/>
@@ -13434,8 +13498,10 @@ JP3 2-3: external 5V supply</text>
 <attribute name="NAME" x="29.464" y="97.028" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="29.718" y="104.394" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="GND11" gate="1" x="30.48" y="96.52"/>
-<instance part="R4" gate="G$1" x="236.22" y="50.8" rot="R90">
+<instance part="GND11" gate="1" x="30.48" y="96.52" smashed="yes">
+<attribute name="VALUE" x="27.94" y="93.98" size="1.778" layer="96"/>
+</instance>
+<instance part="R4" gate="G$1" x="236.22" y="50.8" smashed="yes" rot="R90">
 <attribute name="LINK" x="236.22" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="DESCRIPTION" x="236.22" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="236.22" y="50.8" size="1.778" layer="96" display="off"/>
@@ -13445,6 +13511,8 @@ JP3 2-3: external 5V supply</text>
 <attribute name="ROHSCERTIFICATE" x="236.22" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="POPULATED" x="236.22" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="236.22" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="233.934" y="48.26" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="239.649" y="48.26" size="1.27" layer="96" rot="R90"/>
 </instance>
 <instance part="C9" gate="G$1" x="228.6" y="50.8" smashed="yes" rot="R90">
 <attribute name="SOURCE" x="228.6" y="50.8" size="1.778" layer="96" display="off"/>
@@ -13459,8 +13527,10 @@ JP3 2-3: external 5V supply</text>
 <attribute name="NAME" x="227.584" y="46.228" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="227.838" y="53.594" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="GND12" gate="1" x="233.68" y="40.64"/>
-<instance part="LED2" gate="G$1" x="43.18" y="157.48">
+<instance part="GND12" gate="1" x="233.68" y="40.64" smashed="yes">
+<attribute name="VALUE" x="231.14" y="38.1" size="1.778" layer="96"/>
+</instance>
+<instance part="LED2" gate="G$1" x="43.18" y="157.48" smashed="yes">
 <attribute name="DESCRIPTION" x="43.18" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="43.18" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="43.18" y="157.48" size="1.778" layer="96" display="off"/>
@@ -13470,8 +13540,10 @@ JP3 2-3: external 5V supply</text>
 <attribute name="POPULATED" x="43.18" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="43.18" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="43.18" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="46.736" y="152.908" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="48.895" y="152.908" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R5" gate="G$1" x="43.18" y="147.32" rot="R90">
+<instance part="R5" gate="G$1" x="43.18" y="147.32" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" x="43.18" y="147.32" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="43.18" y="147.32" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="43.18" y="147.32" size="1.778" layer="96" display="off"/>
@@ -13481,10 +13553,18 @@ JP3 2-3: external 5V supply</text>
 <attribute name="POPULATED" x="43.18" y="147.32" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="43.18" y="147.32" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="43.18" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="40.894" y="144.78" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="46.609" y="144.78" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="GND13" gate="1" x="43.18" y="139.7"/>
-<instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="FRAME1" gate="G$2" x="162.56" y="0"/>
+<instance part="GND13" gate="1" x="43.18" y="139.7" smashed="yes">
+<attribute name="VALUE" x="40.64" y="137.16" size="1.778" layer="96"/>
+</instance>
+<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME1" gate="G$2" x="162.56" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="175.26" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="248.92" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="180.34" y="19.05" size="2.54" layer="94"/>
+</instance>
 <instance part="C10" gate="G$1" x="157.48" y="114.3" smashed="yes" rot="R90">
 <attribute name="LINK" x="157.48" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="156.464" y="109.982" size="1.27" layer="95" rot="R90"/>
@@ -13511,7 +13591,7 @@ JP3 2-3: external 5V supply</text>
 <attribute name="POPULATED" x="185.42" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="185.42" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R6" gate="G$1" x="86.36" y="22.86" rot="R180">
+<instance part="R6" gate="G$1" x="86.36" y="22.86" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" x="86.36" y="22.86" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" x="86.36" y="22.86" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="86.36" y="22.86" size="1.778" layer="96" rot="R90" display="off"/>
@@ -13521,8 +13601,10 @@ JP3 2-3: external 5V supply</text>
 <attribute name="POPULATED" x="86.36" y="22.86" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="CLASS" x="86.36" y="22.86" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="LINK" x="86.36" y="22.86" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="88.9" y="20.574" size="1.27" layer="95" rot="R180"/>
+<attribute name="VALUE" x="88.9" y="26.289" size="1.27" layer="96" rot="R180"/>
 </instance>
-<instance part="X3" gate="G" x="144.78" y="68.58">
+<instance part="X3" gate="G" x="144.78" y="68.58" smashed="yes">
 <attribute name="DESCRIPTION" x="144.78" y="68.58" size="3.81" layer="96" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" x="144.78" y="68.58" size="3.81" layer="96" rot="MR0" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="144.78" y="68.58" size="3.81" layer="96" rot="MR0" display="off"/>
@@ -13532,8 +13614,10 @@ JP3 2-3: external 5V supply</text>
 <attribute name="POPULATED" x="144.78" y="68.58" size="3.81" layer="96" rot="MR0" display="off"/>
 <attribute name="CLASS" x="144.78" y="68.58" size="3.81" layer="96" rot="MR0" display="off"/>
 <attribute name="LINK" x="144.78" y="68.58" size="3.81" layer="96" rot="MR0" display="off"/>
+<attribute name="VALUE" x="143.51" y="64.77" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="143.51" y="73.66" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="X4" gate="G" x="144.78" y="45.72">
+<instance part="X4" gate="G" x="144.78" y="45.72" smashed="yes">
 <attribute name="DESCRIPTION" x="144.78" y="45.72" size="3.81" layer="96" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" x="144.78" y="45.72" size="3.81" layer="96" rot="MR0" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="144.78" y="45.72" size="3.81" layer="96" rot="MR0" display="off"/>
@@ -13543,8 +13627,10 @@ JP3 2-3: external 5V supply</text>
 <attribute name="POPULATED" x="144.78" y="45.72" size="3.81" layer="96" rot="MR0" display="off"/>
 <attribute name="CLASS" x="144.78" y="45.72" size="3.81" layer="96" rot="MR0" display="off"/>
 <attribute name="LINK" x="144.78" y="45.72" size="3.81" layer="96" rot="MR0" display="off"/>
+<attribute name="VALUE" x="143.51" y="41.91" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="143.51" y="50.8" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="Y3" gate="G$1" x="157.48" y="68.58" rot="MR0">
+<instance part="Y3" gate="G$1" x="157.48" y="68.58" smashed="yes" rot="MR0">
 <attribute name="DESCRIPTION" x="157.48" y="68.58" size="3.81" layer="96" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" x="157.48" y="68.58" size="3.81" layer="96" rot="MR0" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="157.48" y="68.58" size="3.81" layer="96" rot="MR0" display="off"/>
@@ -13554,8 +13640,10 @@ JP3 2-3: external 5V supply</text>
 <attribute name="POPULATED" x="157.48" y="68.58" size="3.81" layer="96" rot="MR0" display="off"/>
 <attribute name="CLASS" x="157.48" y="68.58" size="3.81" layer="96" rot="MR0" display="off"/>
 <attribute name="LINK" x="157.48" y="68.58" size="3.81" layer="96" rot="MR0" display="off"/>
+<attribute name="VALUE" x="158.75" y="64.77" size="1.778" layer="96" rot="MR180"/>
+<attribute name="NAME" x="158.75" y="73.66" size="1.778" layer="95" rot="MR180"/>
 </instance>
-<instance part="Y4" gate="G$1" x="157.48" y="45.72" rot="MR0">
+<instance part="Y4" gate="G$1" x="157.48" y="45.72" smashed="yes" rot="MR0">
 <attribute name="DESCRIPTION" x="157.48" y="45.72" size="3.81" layer="96" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" x="157.48" y="45.72" size="3.81" layer="96" rot="MR0" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="157.48" y="45.72" size="3.81" layer="96" rot="MR0" display="off"/>
@@ -13565,10 +13653,16 @@ JP3 2-3: external 5V supply</text>
 <attribute name="POPULATED" x="157.48" y="45.72" size="3.81" layer="96" rot="MR0" display="off"/>
 <attribute name="CLASS" x="157.48" y="45.72" size="3.81" layer="96" rot="MR0" display="off"/>
 <attribute name="LINK" x="157.48" y="45.72" size="3.81" layer="96" rot="MR0" display="off"/>
+<attribute name="VALUE" x="158.75" y="41.91" size="1.778" layer="96" rot="MR180"/>
+<attribute name="NAME" x="158.75" y="50.8" size="1.778" layer="95" rot="MR180"/>
 </instance>
-<instance part="GND14" gate="1" x="149.86" y="58.42"/>
-<instance part="GND15" gate="1" x="149.86" y="35.56"/>
-<instance part="X5" gate="G" x="139.7" y="22.86">
+<instance part="GND14" gate="1" x="149.86" y="58.42" smashed="yes">
+<attribute name="VALUE" x="147.32" y="55.88" size="1.778" layer="96"/>
+</instance>
+<instance part="GND15" gate="1" x="149.86" y="35.56" smashed="yes">
+<attribute name="VALUE" x="147.32" y="33.02" size="1.778" layer="96"/>
+</instance>
+<instance part="X5" gate="G" x="139.7" y="22.86" smashed="yes">
 <attribute name="DESCRIPTION" x="139.7" y="22.86" size="3.81" layer="96" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" x="139.7" y="22.86" size="3.81" layer="96" rot="MR0" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="139.7" y="22.86" size="3.81" layer="96" rot="MR0" display="off"/>
@@ -13578,8 +13672,10 @@ JP3 2-3: external 5V supply</text>
 <attribute name="POPULATED" x="139.7" y="22.86" size="3.81" layer="96" rot="MR0" display="off"/>
 <attribute name="CLASS" x="139.7" y="22.86" size="3.81" layer="96" rot="MR0" display="off"/>
 <attribute name="LINK" x="139.7" y="22.86" size="3.81" layer="96" rot="MR0" display="off"/>
+<attribute name="VALUE" x="138.43" y="19.05" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="138.43" y="27.94" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="Y5" gate="G$1" x="152.4" y="22.86" rot="MR0">
+<instance part="Y5" gate="G$1" x="152.4" y="22.86" smashed="yes" rot="MR0">
 <attribute name="DESCRIPTION" x="152.4" y="22.86" size="3.81" layer="96" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" x="152.4" y="22.86" size="3.81" layer="96" rot="MR0" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="152.4" y="22.86" size="3.81" layer="96" rot="MR0" display="off"/>
@@ -13589,8 +13685,12 @@ JP3 2-3: external 5V supply</text>
 <attribute name="POPULATED" x="152.4" y="22.86" size="3.81" layer="96" rot="MR0" display="off"/>
 <attribute name="CLASS" x="152.4" y="22.86" size="3.81" layer="96" rot="MR0" display="off"/>
 <attribute name="LINK" x="152.4" y="22.86" size="3.81" layer="96" rot="MR0" display="off"/>
+<attribute name="VALUE" x="153.67" y="19.05" size="1.778" layer="96" rot="MR180"/>
+<attribute name="NAME" x="153.67" y="27.94" size="1.778" layer="95" rot="MR180"/>
 </instance>
-<instance part="GND16" gate="1" x="144.78" y="12.7"/>
+<instance part="GND16" gate="1" x="144.78" y="12.7" smashed="yes">
+<attribute name="VALUE" x="142.24" y="10.16" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
