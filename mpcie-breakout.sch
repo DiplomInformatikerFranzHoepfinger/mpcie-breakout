@@ -13085,6 +13085,14 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="96.52" y1="50.8" x2="30.48" y2="50.8" width="0.2032" layer="97"/>
 <wire x1="96.52" y1="43.18" x2="30.48" y2="43.18" width="0.2032" layer="97"/>
 <wire x1="96.52" y1="35.56" x2="30.48" y2="35.56" width="0.2032" layer="97"/>
+<text x="58.42" y="114.3" size="1.778" layer="97">REFCLK-</text>
+<text x="58.42" y="106.68" size="1.778" layer="97">REFCLK+</text>
+<text x="58.42" y="99.06" size="1.778" layer="97">PERN0</text>
+<text x="58.42" y="91.44" size="1.778" layer="97">PERP0</text>
+<text x="83.82" y="99.06" size="1.778" layer="97">REFCLK-</text>
+<text x="83.82" y="91.44" size="1.778" layer="97">REFCLK+</text>
+<text x="83.82" y="106.68" size="1.778" layer="97">UIM_C4</text>
+<text x="83.82" y="114.3" size="1.778" layer="97">UIM_C8</text>
 </plain>
 <instances>
 <instance part="X1" gate="G$1" x="142.24" y="81.28" smashed="yes">
@@ -13939,6 +13947,96 @@ JP3 2-3: external 5V supply</text>
 <sheet>
 <plain>
 <text x="30.48" y="101.6" size="3.81" layer="97" font="vector" ratio="12">I/O Header</text>
+<wire x1="215.9" y1="142.24" x2="149.86" y2="142.24" width="0.2032" layer="97"/>
+<wire x1="167.64" y1="152.4" x2="167.64" y2="111.76" width="0.2032" layer="97"/>
+<wire x1="193.04" y1="152.4" x2="193.04" y2="111.76" width="0.2032" layer="97"/>
+<text x="172.72" y="144.78" size="1.778" layer="97">Quectel</text>
+<text x="198.12" y="144.78" size="1.778" layer="97">ESP32</text>
+<text x="154.94" y="144.78" size="1.778" layer="97">Pin</text>
+<wire x1="215.9" y1="134.62" x2="149.86" y2="134.62" width="0.2032" layer="97"/>
+<wire x1="215.9" y1="127" x2="149.86" y2="127" width="0.2032" layer="97"/>
+<wire x1="215.9" y1="119.38" x2="149.86" y2="119.38" width="0.2032" layer="97"/>
+<wire x1="215.9" y1="111.76" x2="193.04" y2="111.76" width="0.2032" layer="97"/>
+<text x="152.4" y="137.16" size="1.778" layer="97">UART_RXD</text>
+<text x="152.4" y="129.54" size="1.778" layer="97">UART_TXD</text>
+<text x="152.4" y="121.92" size="1.778" layer="97">UART_CTS</text>
+<text x="152.4" y="114.3" size="1.778" layer="97">UART_RTS</text>
+<text x="198.12" y="129.54" size="1.778" layer="97">26</text>
+<text x="198.12" y="137.16" size="1.778" layer="97">25</text>
+<text x="198.12" y="114.3" size="1.778" layer="97">23</text>
+<text x="198.12" y="121.92" size="1.778" layer="97">27</text>
+<text x="172.72" y="137.16" size="1.778" layer="97">5</text>
+<text x="172.72" y="129.54" size="1.778" layer="97">8</text>
+<text x="172.72" y="121.92" size="1.778" layer="97">9</text>
+<text x="172.72" y="114.3" size="1.778" layer="97">12</text>
+<wire x1="193.04" y1="111.76" x2="167.64" y2="111.76" width="0.2032" layer="97"/>
+<wire x1="167.64" y1="111.76" x2="149.86" y2="111.76" width="0.2032" layer="97"/>
+<wire x1="215.9" y1="152.4" x2="215.9" y2="111.76" width="0.2032" layer="97"/>
+<wire x1="149.86" y1="152.4" x2="149.86" y2="111.76" width="0.2032" layer="97"/>
+<wire x1="215.9" y1="152.4" x2="149.86" y2="152.4" width="0.2032" layer="97"/>
+<text x="177.8" y="137.16" size="1.778" layer="97">REFCLK-</text>
+<text x="177.8" y="129.54" size="1.778" layer="97">REFCLK+</text>
+<text x="177.8" y="121.92" size="1.778" layer="97">PERN0</text>
+<text x="177.8" y="114.3" size="1.778" layer="97">PERP0</text>
+<wire x1="215.9" y1="104.14" x2="193.04" y2="104.14" width="0.2032" layer="97"/>
+<wire x1="193.04" y1="104.14" x2="167.64" y2="104.14" width="0.2032" layer="97"/>
+<wire x1="167.64" y1="104.14" x2="149.86" y2="104.14" width="0.2032" layer="97"/>
+<wire x1="215.9" y1="111.76" x2="215.9" y2="104.14" width="0.2032" layer="97"/>
+<wire x1="193.04" y1="111.76" x2="193.04" y2="104.14" width="0.2032" layer="97"/>
+<wire x1="167.64" y1="111.76" x2="167.64" y2="104.14" width="0.2032" layer="97"/>
+<wire x1="149.86" y1="111.76" x2="149.86" y2="104.14" width="0.2032" layer="97"/>
+<text x="152.4" y="106.68" size="1.778" layer="97">GND</text>
+<text x="172.72" y="106.68" size="1.778" layer="97">1</text>
+<text x="195.58" y="106.68" size="1.778" layer="97">GND</text>
+<text x="203.2" y="137.16" size="1.778" layer="97">TXD</text>
+<text x="203.2" y="129.54" size="1.778" layer="97">RXD</text>
+<text x="203.2" y="121.92" size="1.778" layer="97">RTS</text>
+<text x="203.2" y="114.3" size="1.778" layer="97">CTS</text>
+<wire x1="215.9" y1="86.36" x2="149.86" y2="86.36" width="0.2032" layer="97"/>
+<wire x1="167.64" y1="96.52" x2="167.64" y2="55.88" width="0.2032" layer="97"/>
+<wire x1="193.04" y1="96.52" x2="193.04" y2="55.88" width="0.2032" layer="97"/>
+<text x="198.12" y="88.9" size="1.778" layer="97">ESP32</text>
+<text x="154.94" y="88.9" size="1.778" layer="97">Pin</text>
+<wire x1="215.9" y1="78.74" x2="149.86" y2="78.74" width="0.2032" layer="97"/>
+<wire x1="215.9" y1="71.12" x2="149.86" y2="71.12" width="0.2032" layer="97"/>
+<wire x1="215.9" y1="63.5" x2="149.86" y2="63.5" width="0.2032" layer="97"/>
+<wire x1="215.9" y1="55.88" x2="193.04" y2="55.88" width="0.2032" layer="97"/>
+<text x="152.4" y="81.28" size="1.778" layer="97">UART_RXD</text>
+<text x="152.4" y="73.66" size="1.778" layer="97">UART_TXD</text>
+<text x="152.4" y="66.04" size="1.778" layer="97">UART_CTS</text>
+<text x="152.4" y="58.42" size="1.778" layer="97">UART_RTS</text>
+<text x="198.12" y="73.66" size="1.778" layer="97">26</text>
+<text x="198.12" y="81.28" size="1.778" layer="97">25</text>
+<text x="198.12" y="58.42" size="1.778" layer="97">23</text>
+<text x="198.12" y="66.04" size="1.778" layer="97">27</text>
+<wire x1="193.04" y1="55.88" x2="167.64" y2="55.88" width="0.2032" layer="97"/>
+<wire x1="167.64" y1="55.88" x2="149.86" y2="55.88" width="0.2032" layer="97"/>
+<wire x1="215.9" y1="96.52" x2="215.9" y2="55.88" width="0.2032" layer="97"/>
+<wire x1="149.86" y1="96.52" x2="149.86" y2="55.88" width="0.2032" layer="97"/>
+<wire x1="215.9" y1="96.52" x2="149.86" y2="96.52" width="0.2032" layer="97"/>
+<wire x1="215.9" y1="48.26" x2="193.04" y2="48.26" width="0.2032" layer="97"/>
+<wire x1="193.04" y1="48.26" x2="167.64" y2="48.26" width="0.2032" layer="97"/>
+<wire x1="167.64" y1="48.26" x2="149.86" y2="48.26" width="0.2032" layer="97"/>
+<wire x1="215.9" y1="55.88" x2="215.9" y2="48.26" width="0.2032" layer="97"/>
+<wire x1="193.04" y1="55.88" x2="193.04" y2="48.26" width="0.2032" layer="97"/>
+<wire x1="167.64" y1="55.88" x2="167.64" y2="48.26" width="0.2032" layer="97"/>
+<wire x1="149.86" y1="55.88" x2="149.86" y2="48.26" width="0.2032" layer="97"/>
+<text x="152.4" y="50.8" size="1.778" layer="97">GND</text>
+<text x="172.72" y="50.8" size="1.778" layer="97">1</text>
+<text x="195.58" y="50.8" size="1.778" layer="97">GND</text>
+<text x="203.2" y="81.28" size="1.778" layer="97">TXD</text>
+<text x="203.2" y="73.66" size="1.778" layer="97">RXD</text>
+<text x="203.2" y="66.04" size="1.778" layer="97">RTS</text>
+<text x="203.2" y="58.42" size="1.778" layer="97">CTS</text>
+<text x="172.72" y="88.9" size="1.778" layer="97">SIMCOM</text>
+<text x="172.72" y="81.28" size="1.778" layer="97">7</text>
+<text x="172.72" y="73.66" size="1.778" layer="97">10</text>
+<text x="172.72" y="66.04" size="1.778" layer="97">5</text>
+<text x="172.72" y="58.42" size="1.778" layer="97">8</text>
+<text x="177.8" y="66.04" size="1.778" layer="97">REFCLK-</text>
+<text x="177.8" y="58.42" size="1.778" layer="97">REFCLK+</text>
+<text x="177.8" y="73.66" size="1.778" layer="97">UIM_C4</text>
+<text x="177.8" y="81.28" size="1.778" layer="97">UIM_C8</text>
 </plain>
 <instances>
 <instance part="JP4" gate="A" x="109.22" y="78.74" smashed="yes">
@@ -13964,8 +14062,8 @@ JP3 2-3: external 5V supply</text>
 <attribute name="POPULATED" x="68.58" y="86.36" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="68.58" y="86.36" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="68.58" y="86.36" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="72.136" y="81.788" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="74.295" y="81.788" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="62.992" y="89.916" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="62.992" y="86.995" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R5" gate="G$1" x="68.58" y="76.2" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" x="68.58" y="76.2" size="1.778" layer="96" display="off"/>
@@ -14016,8 +14114,8 @@ JP3 2-3: external 5V supply</text>
 </segment>
 <segment>
 <pinref part="LED2" gate="G$1" pin="A"/>
-<wire x1="68.58" y1="88.9" x2="68.58" y2="91.44" width="0.1524" layer="91"/>
-<label x="68.58" y="91.44" size="1.27" layer="95" xref="yes"/>
+<wire x1="68.58" y1="88.9" x2="68.58" y2="99.06" width="0.1524" layer="91"/>
+<label x="68.58" y="99.06" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="UIM_C8" class="0">
